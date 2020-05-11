@@ -134,7 +134,7 @@ check_duration:
 
 @ create a delay by making a sample 48 * ms input times (sample rate is 48kHz)
 delay:
-  @ input r0: value of last sample played (delay always follows a note), returned by play_note
+  @ input r0: value of last sample played (delay always follows a note), returned in r0 by play_note
   @ input r1: target duration (ms)
   push {r4-r11, lr}
   mov r6, r0 @ keep value in r6
