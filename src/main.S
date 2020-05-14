@@ -145,6 +145,7 @@ play_note_ADSR:
 
 @ ===
 @ triangle wave
+@ derived from assignment 1 code (see statement of originality)
 @ ===
 
 .type play_note_triangle, %function
@@ -257,6 +258,7 @@ triangle_check_duration:
 
 @ ===
 @ sine wave
+@ derived from assignment 1 code (see statement of originality)
 @ ===
 
 .type play_note_sine, %function
@@ -419,7 +421,7 @@ song:
   @ ||isDelay (0: delay, 1: note)
   @ most significant 2 bits are unused
 
-  @ note (norm) format - 120 bits or 15 bytes total: 
+  @ note (ADSR) format - 120 bits or 15 bytes total: 
   @ mode - 8 bits,
   @ frequency (Hz) - 16 bits, 
   @ sustain volume/loudness (signed, between 0x0 and 0x7fff) - 16 bits, 
@@ -429,7 +431,7 @@ song:
   @ sustain duration (ms) - 16 bits,
   @ release duration (ms) - 16 bits
 
-  @ note (ADSR) format - 48 bits or 7 bytes total: 
+  @ note (mode) format - 48 bits or 7 bytes total: 
   @ mode - 8 bits,
   @ frequency (Hz) - 16 bits, 
   @ volume/loudness (signed, between 0x0 and 0x7fff) - 16 bits,
