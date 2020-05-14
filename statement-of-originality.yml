@@ -22,9 +22,12 @@ code:
     licence: N/A
 
 
-
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
+assets:
+  - comment: ADSR envelope diagram used in design document
+    url: https://blog.landr.com/adsr-envelopes-infographic/
+    licence: fair use
 
 
 # sign *your* name and uid here
