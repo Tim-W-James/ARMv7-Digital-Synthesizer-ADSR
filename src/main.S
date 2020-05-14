@@ -47,6 +47,8 @@ loop_note:
   add r4, #6 @ change the address to the start of the next element
   b loop_note
 
+
+@ triangle wave derived from assignment 1 code (see statement of originality)
 .type play_note_triangle, %function
 play_note_triangle:
   @ setup
