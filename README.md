@@ -18,7 +18,7 @@
     <br />
     This project was created during my university studies at <b>ANU</b> in <b>2020</b> and has been transferred from the ANU GitLab server.
     <br />
-    <a href="https://github.com/Tim-W-James/ARMv7-Sine-Wave/blob/part-2/design-document.pdf"><strong>Read the design doc »</strong></a>
+    <a href="https://github.com/Tim-W-James/ARMv7-Digital-Synthesizer-ADSR/blob/part-1/design-document.pdf"><strong>Read the design doc »</strong></a>
     <br />
 <!--     <a href="https://github.com/Tim-W-James/repo_name">View Demo</a> -->
 <!--     ·
@@ -56,9 +56,10 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Program that implements digital synthesizer with (attack-decay-sustain-release) envelope functionality in ARMv7 assembly. Builds upon my [sine wave program](https://github.com/Tim-W-James/ARMv7-Sine-Wave). Read the [design doc](https://github.com/Tim-W-James/ARMv7-Sine-Wave/blob/part-2/design-document.pdf) for implementation details.
+Program that implements digital synthesizer with (attack-decay-sustain-release) envelope functionality in ARMv7 assembly. Builds upon my [sine wave program](https://github.com/Tim-W-James/ARMv7-Sine-Wave). Read the [design doc](https://github.com/Tim-W-James/ARMv7-Digital-Synthesizer-ADSR/blob/part-1/design-document.pdf) for implementation details.
 
 ### Features
+![Format](https://github.com/Tim-W-James/ARMv7-Digital-Synthesizer-ADSR/blob/part-1/format.png)
 Waveforms can be customized with the following:
 * Custom frequency
 * Sustain loudness
@@ -90,7 +91,7 @@ Waveforms can be customized with the following:
 
 Email: [tim.jameswork9800@gmail.com](mailto:tim.jameswork9800@gmail.com "tim.jameswork9800@gmail.com")
 
-Project Link: [https://github.com/Tim-W-James/ARMv7-Sine-Wave](https://github.com/Tim-W-James/ARMv7-Sine-Wave)
+Project Link: [https://github.com/Tim-W-James/ARMv7-Digital-Synthesizer-ADSR](https://github.com/Tim-W-James/ARMv7-Digital-Synthesizer-ADSR)
 
 
 
